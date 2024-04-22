@@ -1,0 +1,25 @@
+.middle {
+  width: 100%;
+}
+.secContainer > .rating-info {
+  padding: 3rem;
+  border-radius: var(--borderRadius);
+  background: var(--primaryColorLight);
+  justify-content: center;
+  gap: 2rem;
+  margin: auto;
+}
+.rating-info > span {
+  justify-content: center;
+  gap: 0.5rem;
+}
+.rating-info > span > h1 {
+  font-size: var(--h1FontSize);
+  font-weight: 700;
+  color: var(--blavkColor);
+}
+
+.rating-info > span > p {
+  max-width: 80px;
+  opacity: 0.8;
+}

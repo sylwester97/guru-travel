@@ -1,0 +1,49 @@
+.home {
+  position: relative;
+  height: 95vh;
+  width: 100%;
+  top: 0;
+}
+
+.video-bcg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.video-bcg video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.sectionText {
+  position: absolute;
+  height: 100%;
+  top: 30%;
+  bottom: 50%;
+  color: var(--whieColor);
+}
+
+.sectionText h1 {
+  font-size: var(--biggestFontSize);
+  font-weight: 900;
+  /* text-align: center; */
+  margin-bottom: 1rem;
+}
+.sectionText p {
+  font-size: var(--normalFontSize);
+  font-weight: 500;
+  /* text-align: center; */
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+.btn {
+  gap: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: var(--h3FontSize);
+}
+
+.popularPlaces {
+  display: none;
+}

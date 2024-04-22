@@ -1,0 +1,34 @@
+.redText {
+  color: var(--primaryColor);
+  font-size: var(--smallFontSize);
+  font-weight: 500;
+}
+
+h3 {
+  font-size: var(--h1FontSize);
+}
+.searchField {
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.inputField {
+  display: flex;
+  flex-direction: row;
+  background: var(--primaryColorLight);
+  padding: 1rem;
+  border-radius: var(--borderRadius);
+  gap: 0.5rem;
+}
+.inputField > input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.searchBtn {
+  gap: 0.5rem;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
