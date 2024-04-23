@@ -1,0 +1,17 @@
+.portfolio > .secContainer {
+  gap: 2rem;
+}
+.leftContent > .grid > .singlePortfolio {
+  gap: 1rem;
+  align-items: flex-start;
+}
+.singlePortfolio > .iconDiv {
+  height: 50px;
+  width: 50px;
+}
+.infor > h4 {
+  padding-bottom: 0.5rem;
+}
+.rightContent > img {
+  border-radius: 50% 20% 50% 20%;
+}

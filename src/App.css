@@ -41,7 +41,7 @@ p {
   font-size: var(--smallFontSize);
 }
 html {
-  font-size: 90%;
+  font-size: 100%;
 }
 a {
   text-decoration: none;
@@ -100,7 +100,7 @@ video {
   background: var(--primaryColorLight);
 }
 .section {
-  padding: 4rem 0 2rem;
+  padding: 4rem 0 2rem 0;
 }
 .container {
   padding: 0 1.5rem 0 1.5rem;

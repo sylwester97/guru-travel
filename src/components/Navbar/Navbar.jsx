@@ -7,12 +7,12 @@ import { CiMenuBurger } from 'react-icons/ci'
 import { useState } from 'react'
 
 const Navbar = () => {
-  const [navbar, setNavbar] = useState('menu')
+  const [menuList, setMenuList] = useState('menu')
   function showNavbar() {
-    setNavbar('menu showNavbar')
+    setMenuList('menu showNavbar')
   }
   function hideNavbar() {
-    setNavbar('menu')
+    setMenuList('menu')
   }
   return (
     <div className='navbar'>
@@ -20,7 +20,7 @@ const Navbar = () => {
         <TbHexagonLetterG />
         <span>uru-Travel</span>
       </div>
-      <div className={navbar}>
+      <div className={menuList}>
         <ul>
           <li className='menu-item'>Destination</li>
           <li className='menu-item'>About Us</li>

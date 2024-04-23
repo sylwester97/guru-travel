@@ -46,8 +46,8 @@
 @media screen and (max-width: 768px) {
   .menu {
     position: absolute;
-    width: 70%;
-    top: -100rem;
+    width: 60%;
+    top: -20rem;
     right: 50%;
     left: 50%;
     transform: translate(-50%);
@@ -72,10 +72,13 @@
   }
 }
 
-.menuIcon,
-.closeIcon {
+.menuIcon {
   font-size: var(--h1FontSize);
 }
+.closeIcon {
+  font-size: 3rem;
+}
+
 .menuIcon:hover {
   color: var(--primaryColor);
 }
@@ -84,7 +87,7 @@
 }
 .closeIcon {
   position: absolute;
-  bottom: -15px;
+  bottom: -20px;
   right: 50%;
   left: 50%;
   color: var(--blackColor);
